@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8907187B19E353F900195A0D /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8907187A19E353F900195A0D /* ItemsViewController.m */; };
+		8907187E19E3548F00195A0D /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8907187D19E3548F00195A0D /* AddItemViewController.m */; };
+		8907188019E3651A00195A0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8907187F19E3651A00195A0D /* README.md */; };
 		894DD08019E2FB8200D2F7E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894DD07F19E2FB8200D2F7E1 /* Foundation.framework */; };
 		894DD08219E2FB8200D2F7E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894DD08119E2FB8200D2F7E1 /* CoreGraphics.framework */; };
 		894DD08419E2FB8200D2F7E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894DD08319E2FB8200D2F7E1 /* UIKit.framework */; };
@@ -14,7 +17,6 @@
 		894DD08C19E2FB8200D2F7E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DD08B19E2FB8200D2F7E1 /* main.m */; };
 		894DD09019E2FB8200D2F7E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DD08F19E2FB8200D2F7E1 /* AppDelegate.m */; };
 		894DD09319E2FB8200D2F7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894DD09119E2FB8200D2F7E1 /* Main.storyboard */; };
-		894DD09619E2FB8200D2F7E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DD09519E2FB8200D2F7E1 /* ViewController.m */; };
 		894DD09819E2FB8200D2F7E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894DD09719E2FB8200D2F7E1 /* Images.xcassets */; };
 		894DD09F19E2FB8200D2F7E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894DD09E19E2FB8200D2F7E1 /* XCTest.framework */; };
 		894DD0A019E2FB8200D2F7E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894DD07F19E2FB8200D2F7E1 /* Foundation.framework */; };
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8907187919E353F900195A0D /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		8907187A19E353F900195A0D /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		8907187C19E3548F00195A0D /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		8907187D19E3548F00195A0D /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		8907187F19E3651A00195A0D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		894DD07C19E2FB8200D2F7E1 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		894DD07F19E2FB8200D2F7E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		894DD08119E2FB8200D2F7E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +52,6 @@
 		894DD08E19E2FB8200D2F7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		894DD08F19E2FB8200D2F7E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		894DD09219E2FB8200D2F7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		894DD09419E2FB8200D2F7E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		894DD09519E2FB8200D2F7E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		894DD09719E2FB8200D2F7E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		894DD09D19E2FB8200D2F7E1 /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		894DD09E19E2FB8200D2F7E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -82,6 +87,7 @@
 		894DD07319E2FB8200D2F7E1 = {
 			isa = PBXGroup;
 			children = (
+				8907187F19E3651A00195A0D /* README.md */,
 				894DD08519E2FB8200D2F7E1 /* ToDoApp */,
 				894DD0A419E2FB8200D2F7E1 /* ToDoAppTests */,
 				894DD07E19E2FB8200D2F7E1 /* Frameworks */,
@@ -114,9 +120,11 @@
 			children = (
 				894DD08E19E2FB8200D2F7E1 /* AppDelegate.h */,
 				894DD08F19E2FB8200D2F7E1 /* AppDelegate.m */,
+				8907187C19E3548F00195A0D /* AddItemViewController.h */,
+				8907187D19E3548F00195A0D /* AddItemViewController.m */,
+				8907187919E353F900195A0D /* ItemsViewController.h */,
+				8907187A19E353F900195A0D /* ItemsViewController.m */,
 				894DD09119E2FB8200D2F7E1 /* Main.storyboard */,
-				894DD09419E2FB8200D2F7E1 /* ViewController.h */,
-				894DD09519E2FB8200D2F7E1 /* ViewController.m */,
 				894DD09719E2FB8200D2F7E1 /* Images.xcassets */,
 				894DD08619E2FB8200D2F7E1 /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			files = (
 				894DD09819E2FB8200D2F7E1 /* Images.xcassets in Resources */,
 				894DD08A19E2FB8200D2F7E1 /* InfoPlist.strings in Resources */,
+				8907188019E3651A00195A0D /* README.md in Resources */,
 				894DD09319E2FB8200D2F7E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894DD09619E2FB8200D2F7E1 /* ViewController.m in Sources */,
+				8907187B19E353F900195A0D /* ItemsViewController.m in Sources */,
+				8907187E19E3548F00195A0D /* AddItemViewController.m in Sources */,
 				894DD09019E2FB8200D2F7E1 /* AppDelegate.m in Sources */,
 				894DD08C19E2FB8200D2F7E1 /* main.m in Sources */,
 			);
@@ -456,6 +466,7 @@
 				894DD0B019E2FB8200D2F7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		894DD0B119E2FB8200D2F7E1 /* Build configuration list for PBXNativeTarget "ToDoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				894DD0B319E2FB8200D2F7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
